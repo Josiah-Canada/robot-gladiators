@@ -22,7 +22,7 @@ var fight = function() {
 
         playerHealth = playerHealth - enemyAttack;
         console.log(
-            enemyAttack + " attacked " + playerName + ". " + playerName + ". " + playerName + " now has "
+            enemyAttack + " attacked " + playerName + " now has "
         );
         if (playerHealth <= 0) {
             window.alert(playerName + " has died.");
@@ -45,15 +45,15 @@ var fight = function() {
     }
         
     }
-    console.log (
-        playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining."
-    );
-    if (enemyHealth <= 0) {
-        window.alert(enemyName + " has died!");
-    } 
-    else {
-        window.alert(enemyName + " still has " + enemyHealth + " health left.");
-    }
+    // console.log (
+    //     playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining."
+    // );
+    // if (enemyHealth <= 0) {
+    //     window.alert(enemyName + " has died!");
+    // } 
+    // else {
+    //     window.alert(enemyName + " still has " + enemyHealth + " health left.");
+    // }
 
 
 fight();
